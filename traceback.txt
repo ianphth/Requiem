@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    if Choice1.Unlocked:
+  File "game/script.rpy", line 41, in <module>
+    if Choice1.Unlocked:
+NameError: name 'Choice1' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    if Choice1.Unlocked:
+  File "E:\Games\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\Games\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 41, in <module>
+    if Choice1.Unlocked:
+NameError: name 'Choice1' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.13.2919
+Requiem_Mobius 1.0
